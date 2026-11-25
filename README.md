@@ -14,9 +14,9 @@ This guide walks you through the four foundational pillars every Oracle practiti
 
 ### Difference between oracle databases and instance
 
-**Oracle database**: it is the physical files stored permanently on the hard drive.
+**Oracle database**: it is the collection of physical files stored permanently on the hard drive examples are(Datafiles,Control files,Redo log files,Database,backup files,Archived redo log files,Parameter files,Password file,Alert log files,Trace files)
 
-**Oracle database instance** : it's the active software,memory and background processes that ran in RAM to read,write,and manage physical datafiles(.dbf,.ctl, .log). 
+**Oracle database instance** : it's the active software,memory and background processes that ran in RAM to read,write,and manage physical database datafiles(.dbf,.ctl, .log). 
 >[ANALOGY]
 > Oracle database is like a Word document file(.doc) while instance is like the Microsoft Word software that will help in managing the word .doc document
 
