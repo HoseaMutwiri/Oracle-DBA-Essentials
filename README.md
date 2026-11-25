@@ -40,6 +40,7 @@ To understand the differences between oracle databases and instance better check
 
 ### Components of Oracle Database Instance
 1. **System Global Area (SGA)** - a large chunk of server RAM allocated when the instance starts up:
+
 - Database Buffer Cache: Holds copies of data blocks read from disk so subsequent queries can read them from ultra fast RAM instead of hitting the hard drive again.
 - Shared Pool: Caches parsed SQL queries and execution plans. If 1,000 users run SELECT * FROM employees WHERE id = 1, Oracle figures out the best way to run it once and reuses that plan from the Shared Pool.
 - Redo Log Buffer: A small, fast memory staging area that holds change records before writing them out to the Online Redo Log files on disk.
