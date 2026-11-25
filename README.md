@@ -14,7 +14,7 @@ This guide walks you through the four foundational pillars every Oracle practiti
 
 ### Difference between oracle databases and instance
 
-**Oracle database**: it is the collection of physical files stored permanently on the hard drive examples are(Datafiles,Control files,Redo log files,Database,backup files,Archived redo log files,Parameter files,Password file,Alert log files,Trace files)
+**Oracle database**: it is the collection of physical files stored permanently on the hard drive examples are(Datafiles,Control files,Redo log files,Database backup files,Archived redo log files,Parameter files,Password file,Alert log files,Trace files)
 
 **Oracle database instance** : it's the active software,memory and background processes that ran in RAM to read,write,and manage physical database datafiles(.dbf,.ctl, .log). 
 >[ANALOGY]
@@ -37,7 +37,13 @@ To understand the differences between oracle databases and instance better check
 1. Control files - contains the users data (.ctl)
 2. Online Redo log files - (.log)
 3. Data files - actual data (.dbf)
-
+4. Database backup files
+5. Archived redo log files
+6. Parameter files
+7. Password file
+8. Alert log files
+9. Trace files
+    
 ### Components of Oracle Database Instance
 1. **System Global Area (SGA)** - a large chunk of server RAM allocated when the instance starts up:
 
